@@ -1,0 +1,3 @@
+uart_modbus_rtu.pbi: \
+  D:\Project_STM32\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\user_app_temp_humi\uart_modbus_rtu.h \
+  D:\Project_STM32\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\user_app_temp_humi\uart_modbus_rtu.c
