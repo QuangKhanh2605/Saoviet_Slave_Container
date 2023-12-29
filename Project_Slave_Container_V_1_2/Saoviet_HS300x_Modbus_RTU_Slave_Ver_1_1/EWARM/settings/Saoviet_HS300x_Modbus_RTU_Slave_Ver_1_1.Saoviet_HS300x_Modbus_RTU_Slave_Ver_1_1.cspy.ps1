@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\settings\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.general.xcl" --backend -f "D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\settings\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\settings\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.general.xcl" --backend -f "D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\settings\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\settings\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.general.xcl" --debug_file=$debugfile --backend -f "D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\settings\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\settings\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.general.xcl" --debug_file=$debugfile --backend -f "D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\settings\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.driver.xcl" 
 }

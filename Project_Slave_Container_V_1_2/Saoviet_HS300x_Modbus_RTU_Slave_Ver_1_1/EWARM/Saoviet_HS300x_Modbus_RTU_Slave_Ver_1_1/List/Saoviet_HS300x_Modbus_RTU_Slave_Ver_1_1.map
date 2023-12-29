@@ -1,49 +1,49 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.2.214/W32 for ARM                  22/Aug/2023  17:01:26
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  04/Nov/2023  10:32:45
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Exe\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.out
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Exe\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.out
 #    Map file     =
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\List\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.map
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\List\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.map
 #    Command line =
-#        -f C:\Users\PC\AppData\Local\Temp\EW7788.tmp
-#        (D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\HS300x.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\main.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\startup_stm32l031xx.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_cortex.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_dma.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_exti.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_flash.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_flash_ex.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_flash_ramfunc.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_gpio.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_i2c.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_i2c_ex.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_iwdg.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_msp.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_pwr.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_pwr_ex.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_rcc.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_rcc_ex.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_tim.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_tim_ex.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_uart.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_uart_ex.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_it.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\system_stm32l0xx.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\user_app_temp_humi.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\user_modbus_rtu.o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\user_uart.o
+#        -f C:\Users\PC\AppData\Local\Temp\EW13C6.tmp
+#        (D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\HS300x.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\main.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\startup_stm32l031xx.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_cortex.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_dma.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_exti.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_flash.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_flash_ex.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_flash_ramfunc.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_gpio.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_i2c.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_i2c_ex.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_iwdg.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_msp.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_pwr.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_pwr_ex.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_rcc.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_rcc_ex.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_tim.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_tim_ex.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_uart.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_hal_uart_ex.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\stm32l0xx_it.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\system_stm32l0xx.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\user_app_temp_humi.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\user_modbus_rtu.o
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj\user_uart.o
 #        --no_out_extension -o
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Exe\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.out
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Exe\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\List\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.map
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\List\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1.map
 #        --config
-#        D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM/stm32l031xx_flash.icf
+#        D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM/stm32l031xx_flash.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -220,7 +220,7 @@ command line/config:
     ---------------------------------------------------
     Total:
 
-D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj: [1]
+D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj: [1]
     HS300x.o                      216                 1
     main.o                        784       48      292
     startup_stm32l031xx.o         246
@@ -479,7 +479,7 @@ uwTickFreq              0x2000'009c    0x1  Data  Gb  stm32l0xx_hal.o [1]
 uwTickPrio              0x2000'00a4    0x4  Data  Gb  stm32l0xx_hal.o [1]
 
 
-[1] = D:\Saoviet_Git\Saoviet_Slave_Hs300x_Container_Ver_1_1\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj
+[1] = D:\Saoviet_Git\Saoviet_Slave_Container\Project_Slave_Container_V_1_2\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\EWARM\Saoviet_HS300x_Modbus_RTU_Slave_Ver_1_1\Obj
 [2] = dl6M_tln.a
 [3] = m6M_tl.a
 [4] = rt6M_tl.a

@@ -408,7 +408,7 @@ void Get_Length_Variable(uint8_t *length, uint32_t variable)
 	@return (5)  Hieu chuan do am (tang)
 	@return (-5) Hieu chuan do am (giam)
 */
-int8_t Terminal_Receive(UART_BUFFER *sUart2, uint8_t addr_stm32l0xx)
+int8_t +Terminal_Receive(UART_BUFFER *sUart2, uint8_t addr_stm32l0xx)
 {
 	uint8_t i=0;
 	if(sUart2->sim_rx[i] == 'A' && sUart2->sim_rx[i+1] == 'T') i=i+2;
